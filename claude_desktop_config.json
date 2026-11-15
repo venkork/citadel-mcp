@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "citadel": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://thecitadelapp.com/api/mcp"
+      ]
+    }
+  }
+}
