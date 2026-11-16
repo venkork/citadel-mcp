@@ -166,3 +166,23 @@ curl -sS -X POST https://thecitadelapp.com/api/mcp \
 - **Support:** [support@thecitadelapp.com](mailto:support@thecitadelapp.com)
 - **Policies:** [Privacy Policy](https://thecitadelapp.com/privacy) · [Terms of Service](https://thecitadelapp.com/terms)
 - **License:** [MIT](./LICENSE)
+
+## Zero-Install Stdio Bridge (`npx`)
+
+For stdio-only MCP clients (like Claude Desktop), connect without cloning or managing dependencies:
+
+```json
+{
+  "mcpServers": {
+    "thecitadelapp-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:venkork/citadel-mcp"
+      ]
+    }
+  }
+}
+```
+
+Or run directly via terminal: `npx -y github:venkork/citadel-mcp` (package ID: `thecitadelapp-mcp@1.0.0`).

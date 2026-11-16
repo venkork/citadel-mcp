@@ -1,0 +1,35 @@
+{
+  "name": "thecitadelapp-mcp",
+  "version": "1.0.0",
+  "description": "Deterministic 6-dimension dating profile rubrics and readiness checks via Streamable HTTP MCP.",
+  "type": "module",
+  "mcpName": "com.thecitadelapp/citadel",
+  "bin": {
+    "thecitadelapp-mcp": "./bin/mcp-bridge.mjs"
+  },
+  "files": [
+    "bin",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "remote-mcp",
+    "profile-review",
+    "photo-audit",
+    "a2a"
+  ],
+  "homepage": "https://thecitadelapp.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkork/citadel-mcp.git"
+  },
+  "author": "The Citadel Operations <support@thecitadelapp.com>",
+  "license": "MIT"
+}
