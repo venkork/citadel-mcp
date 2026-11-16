@@ -1,6 +1,6 @@
 {
   "name": "thecitadelapp-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic 6-dimension dating profile rubrics and readiness checks via Streamable HTTP MCP.",
   "type": "module",
   "mcpName": "com.thecitadelapp/citadel",
